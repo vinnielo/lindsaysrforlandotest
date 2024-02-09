@@ -32,12 +32,12 @@ export default function Header() {
           {/* <!-- Menu --> */}
           <div className="hidden h-10 md:flex md:space-x-8">
             <div className="group">
-              <a
-                href="/lindsaysrforlandotest/contact"
+              <Link
+                to="/lindsaysrforlandotest/contact"
                 className="text-blue-950"
               >
                 Contact
-              </a>
+              </Link>
               <div className="mx-2 group-hover:border-b group-hover:border-amber-600"></div>
             </div>
             <div className="group">
@@ -108,9 +108,12 @@ export default function Header() {
               : "absolute top-0 bottom-0 left-0 hidden flex-col self-end w-full min-h-screen py-1 pt-40 pl-12 space-y-3 text-lg text-amber-600 uppercase bg-white"
           }
         >
-          <a href="/Contact" className="hover:text-amber-600">
+          <Link
+            to="/lindsaysrforlandotest/contact"
+            className="hover:text-amber-600"
+          >
             Contact
-          </a>
+          </Link>
           <a
             href="https://yogananda.org/events-and-programs"
             target="_blank"
@@ -141,7 +144,6 @@ export default function Header() {
           </a>
         </div>
       </div>
-      <Link to="/lindsaysrforlandotest/contact">Contact</Link>
     </section>
   );
 }
