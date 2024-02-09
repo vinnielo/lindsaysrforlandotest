@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import selfRealizationLogo from "../assets/images/srf-wordmark-navy.png";
 import srfLogo from "../assets/images/Updated_logo.png";
 import { useState } from "react";
@@ -140,6 +141,7 @@ export default function Header() {
           </a>
         </div>
       </div>
+      <Link to="//lindsaysrforlandotest/contact">Contact</Link>
     </section>
   );
 }
