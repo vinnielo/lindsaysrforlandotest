@@ -141,7 +141,7 @@ export default function Header() {
           </a>
         </div>
       </div>
-      <Link to="//lindsaysrforlandotest/contact">Contact</Link>
+      <Link to="/lindsaysrforlandotest/contact">Contact</Link>
     </section>
   );
 }
